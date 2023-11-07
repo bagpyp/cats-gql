@@ -6,7 +6,7 @@ var schema = buildSchema(`
   }
 `)
 
-var rootValue = { hello: () => "Meow!" }
+var rootValue = { cats: () => "Meow!" }
 
 var source = "{ cats }"
 
